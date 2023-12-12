@@ -1,22 +1,18 @@
 import Link from "next/link"
+import "./global.css"
+import NavBar from "../components/NavBar"
 
 export default function RootLayout({children}){
     return (
         <html lang="fr">
-            <body>
+            <body className="flex flex-col px-4 py-4 min-h-screen bg-orange-50">
                 <header>
-                    <nav>
-                        <ul>
-                            <li><Link href='/'>Home</Link></li>
-                            <li><Link href='/reviews'>Reviews</Link></li>
-                            <li><Link href='/about' prefetch={false}>What about us</Link></li>
-                        </ul>
-                    </nav>
+                    <NavBar />
                 </header>
-                <main>
+                <main className="grow py-3">
                     {children}
                 </main>
-                <footer>
+                <footer className="text-center text-xs border-t py-3">
                     Footer
                 </footer>
             </body>

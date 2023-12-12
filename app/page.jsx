@@ -1,5 +1,6 @@
 "use client"
 import { useEffect } from "react"
+import Heading from "../components/Heading"
 
 export default function HomePage() {
     /*useEffect(() => {
@@ -10,7 +11,7 @@ export default function HomePage() {
 
     return (
         <>
-            <h1>My Games</h1>
+            <Heading>My Games</Heading>
             <p>
                 Only the best games, reviewed for you.
             </p>

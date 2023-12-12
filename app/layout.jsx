@@ -9,7 +9,7 @@ export default function RootLayout({children}){
                         <ul>
                             <li><Link href='/'>Home</Link></li>
                             <li><Link href='/reviews'>Reviews</Link></li>
-                            <li><Link href='/about'>What about us</Link></li>
+                            <li><Link href='/about' prefetch={false}>What about us</Link></li>
                         </ul>
                     </nav>
                 </header>

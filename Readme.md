@@ -15,3 +15,7 @@ npx tailwindcss init --postcss
 
 npm i @headlessui/react@latest
 npm i @heroicons/react
+
+npm i marked
+
+npm i --save-dev @tailwindcss/typography

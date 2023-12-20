@@ -7,6 +7,7 @@
         "title": "Spiderman 2",
         "subtitle": "Dépassez vos limites ensemble",
         "publishedAt": "2023-12-19T08:31:31.265Z",
+        "body": "Les deux __Spider-Man__, _Peter Parker_ et _Miles Morales_, sont de retour pour une toute nouvelle aventure passionnante sur __PS5__ dans la franchise saluée par la critique, __Marvel’s Spider-Man__.\n\nSautez, voltigez et utilisez vos delta-toiles pour parcourir le New York de Marvel, passant de _Peter Parker_ à _Miles Morales_ pour découvrir des histoires uniques et de nouveaux pouvoirs épiques, tandis que leur éternel ennemi _Venom_ menace de détruire leurs vies, leur ville et tous ceux qu'ils aiment.",
         "image": {
           "data": {
             "id": 1,
@@ -16,99 +17,12 @@
           }
         }
       }
-    },
-    {
-      "id": 2,
-      "attributes": {
-        "slug": "diablo-2",
-        "title": "Diablo 2",
-        "subtitle": "Appropriez-vous sanctuaire",
-        "publishedAt": "2023-12-19T08:32:37.522Z",
-        "image": {
-          "data": {
-            "id": 2,
-            "attributes": {
-              "url": "/uploads/diablo_1469d725b8.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "slug": "ea-fc-24",
-        "title": "EA FC 24",
-        "subtitle": "It's in the game",
-        "publishedAt": "2023-12-19T08:34:22.786Z",
-        "image": {
-          "data": {
-            "id": 3,
-            "attributes": {
-              "url": "/uploads/EAFC_24_4c3af457fc.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 4,
-      "attributes": {
-        "slug": "avatar-frontiers-of-pandora",
-        "title": "Avatar Frontiers of Pandora",
-        "subtitle": "Avatar the game",
-        "publishedAt": "2023-12-19T08:35:19.771Z",
-        "image": {
-          "data": {
-            "id": 4,
-            "attributes": {
-              "url": "/uploads/avatar_d03eb47f39.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 5,
-      "attributes": {
-        "slug": "the-crew-motorfest",
-        "title": "The Crew Motorfest",
-        "subtitle": "The Crew Festival",
-        "publishedAt": "2023-12-19T08:36:31.277Z",
-        "image": {
-          "data": {
-            "id": 5,
-            "attributes": {
-              "url": "/uploads/the_crew_ad0c4404ed.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 6,
-      "attributes": {
-        "slug": "super-mario-bros-wonder",
-        "title": "Super Mario Bros Wonder",
-        "subtitle": "Last Super Mario Bros",
-        "publishedAt": "2023-12-19T08:37:19.492Z",
-        "image": {
-          "data": {
-            "id": 6,
-            "attributes": {
-              "url": "/uploads/Mario_Bros_90afb134d8.jpg"
-            }
-          }
-        }
-      }
     }
   ],
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 6,
-      "pageCount": 2,
-      "total": 8
+      "pageSize": 1
     }
   }
 }

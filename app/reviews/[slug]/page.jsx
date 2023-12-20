@@ -27,7 +27,10 @@ export default async function ReviewPage({params: {slug}})
                 <ShareButtons />
             </div>
             <Image width="380" height="180" src={review.image} alt={`image de ${review.title}`} className='mb-4 rounded w-screen mx-auto' />
-            <article dangerouslySetInnerHTML={{__html: review.body}} className="prose lg:prose-xl"></article>    
+            <div className="w-full">
+                <article dangerouslySetInnerHTML={{__html: review.body}} className="prose lg:prose-xl w-full max-w-none"></article>    
+
+            </div>
         </>
     )
 }
